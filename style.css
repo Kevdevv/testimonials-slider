@@ -21,11 +21,7 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-image: url("./images/pattern-curve.svg");
-    background-repeat: no-repeat;
-    background-position: -5px 773px; 
-    background-size: 90% 85px;                  
+    align-items: center;             
 }
 
 .inside-container {
@@ -102,6 +98,11 @@ p.active {
 p {
     text-align: center;
     margin: 5%;
+}
+
+#wave {
+    width: 100%;
+    height: 100px;
 }
 
 @keyframes fade {
