@@ -13,18 +13,19 @@ body {
     font-size: 21px;
     line-height: 1.5em;
     font-weight: 300;
+    height: 100vh;
 }
 
 .container {
     width: 100%;
-    height: 100vh;
-    background-image: url("./images/pattern-curve.svg");
-    background-repeat: no-repeat;
-    background-position: 0% 100%; 
-    background-size: 90% 85px;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;                  
+    align-items: center;
+    background-image: url("./images/pattern-curve.svg");
+    background-repeat: no-repeat;
+    background-position: -5px 773px; 
+    background-size: 90% 85px;                  
 }
 
 .inside-container {
