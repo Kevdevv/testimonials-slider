@@ -18,12 +18,10 @@ body {
 .container {
     width: 100%;
     height: 100vh;
-    background-image: url("./images/pattern-bg.svg"),
-                      url("./images/pattern-curve.svg"),
-                      url("./images/pattern-quotes.svg");
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: 50% 10%, 0% 100%, 50% 55%; 
-    background-size: 378px 342px, 90% 85px, 93px 81px;
+    background-image: url("./images/pattern-curve.svg");
+    background-repeat: no-repeat;
+    background-position: 0% 100%; 
+    background-size: 90% 85px;
     display: flex;
     flex-direction: column;
     align-items: center;                  
@@ -42,10 +40,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url("./images/pattern-bg.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    background-size: 378px 342px;
+    height: 400px;
 }
 
 .sliderText {
     margin-top: 20%;
+    background-image: url("./images/pattern-quotes.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 1%;
+    background-size: 93px 81px;
 }
 
 img {
@@ -64,6 +71,7 @@ img {
     height: 50px;
     position: absolute;
     top: 320px;
+    box-shadow: -8px 5px 20px rgba(0,0,0,0.3);
 }
 
 .arrow {

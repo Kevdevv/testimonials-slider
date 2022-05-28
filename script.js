@@ -1,7 +1,6 @@
 const avatar = document.getElementsByName('test')
 const text = document.querySelectorAll('p')
 const nbSlide = avatar.length
-const nbText = text.length
 const next = document.querySelector('.right')
 const previous = document.querySelector('.left')
 let count = 0
